@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* Um container para centralizar e organizar o conteúdo */
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos */
+h1, h2 {
+    color: #005f73;
+}
+
+/* Estilo para o campo de texto (classe aplicada via 'styleClass' no JSF) */
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+/* Estilo para o botão (classe aplicada via 'styleClass' no JSF) */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Linha horizontal para separar as seções */
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/* Estilo para a tabela de resultados */
+.user-table {
+    width: 100%;
+    border-collapse: collapse; /* Tira o espaçamento entre as bordas das células */
+    margin-top: 20px;
+}
+
+/* Estilo para as células da tabela */
+.user-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* Cria uma linha separando cada nome */
+}
