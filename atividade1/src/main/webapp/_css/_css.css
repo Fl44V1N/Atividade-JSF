@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+/* Regras Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    float: right; /* Ajusta a foto à direita da tela, oposto aos dados */
+}
+
+.header-info h1 {
+    margin: 0;
+    color: #333;
+}
+
+.header-info h4 {
+    margin: 0;
+    color: #666;
+}
+
+/* Seções */
+main section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
