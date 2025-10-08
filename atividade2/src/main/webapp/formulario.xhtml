@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      [cite_start]xmlns:h="http://java.sun.com/jsf/html"> 
+<h:head>
+    <title>Cadastro de Usuários</title>
+    <h:outputStylesheet library="css" name="main.css" />
+</h:head>
+<h:body>
+    <h1>Cadastro de Usuário</h1>
+    
+    <h:form>
+        <h:inputText value="#{userBean.nome}" />
+        
+        <h:commandButton value="Adicionar Nome" action="#{userBean.adicionarNome}" />
+    </h:form>
+    
+    <hr/>
+    
+    <h2>Nomes Cadastrados:</h2>
+    
+    <h:dataTable value="#{userBean.nomes}" var="usuario">
+        <h:column>
+            #{usuario}
+        </h:column>
+    </h:dataTable>
+</h:body>
+</html>
